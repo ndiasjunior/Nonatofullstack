@@ -7,7 +7,7 @@
 
 :root {
   --hue: 300;
-  --primary-color: #333333; 
+  --primary-color: #333333;
   --headline: hsl(210, 11%, 15%);
   --paragraph: hsl(210, 9%, 31%);
 
@@ -51,18 +51,18 @@ body {
   padding-inline: 2.4rem;
 }
 
-body .logo{
-  max-width:12.7rem;
-    max-height: 6.3rem;
-    width: auto;
-    height: auto;
+body .logo {
+  max-width: 12.7rem;
+  max-height: 6.3rem;
+  width: auto;
+  height: auto;
 }
 
 footer .logo {
-  max-width:20rem;
+  max-width: 20rem;
   margin-left: -3rem;
-    width: auto;
-    height: auto;
+  width: auto;
+  height: auto;
 }
 ul {
   list-style: none;
@@ -71,7 +71,9 @@ ul {
 img {
   max-width: 100%;
 }
-
+.col-b img {
+  margin-bottom: 5rem;
+}
 
 section {
   padding-block: 10rem;
@@ -142,14 +144,12 @@ section .content p {
   background-color: var(--brand-dark);
 }
 
-
 .social-links {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 3.2rem;
 }
-
 
 /* custom colors */
 #services .card circle {
@@ -745,7 +745,7 @@ footer .social-links {
   footer {
     padding-block: 8rem;
   }
-  
+
   footer .wrapper {
     grid-template-columns: 1fr 1fr;
     grid-template-areas: 'A B';
@@ -755,13 +755,12 @@ footer .social-links {
     align-self: center;
   }
 
-
   footer .col-b {
     align-self: center;
     justify-self: flex-end;
   }
 
   footer p {
-    margin-bottom: 0
+    margin-bottom: 0;
   }
 }
